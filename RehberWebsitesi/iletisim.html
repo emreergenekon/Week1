@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+</head>
+
+<style>
+
+body {
+    background-color: antiquewhite;
+}
+
+p {
+            text-align: left;
+            max-width: 1000px;
+            line-height: 1.6; 
+            font-size: 20px;
+        }
+
+    nav {
+    background-color: rgb(86, 86, 248);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    }
+    
+    
+    nav ul {
+        list-style-type: none; 
+        margin: 0;
+        padding: 0;
+        overflow: hidden; 
+        display: flex;
+        justify-content: center; 
+    }
+    
+    nav ul li {
+        margin-right: 10px; 
+    }
+    
+    nav ul li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 20px; 
+        text-decoration: none; 
+    }
+    
+    nav ul li a:hover {
+        background-color: #00938e; 
+    }
+    
+    </style>
+
+<body>
+
+    <nav> 
+        <ul>
+            <li><a href="index.html">Ana Sayfa</a></li>
+        <li><a href="Hakkimizda.html">Hakkımızda</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>  
+                <li><a href="servisler.html">Servisler</a></li>  
+        </ul>
+        </nav>
+
+    <h2>İLETİŞİM</h2>
+
+    <p>Bizimle iletişime geçmekten çekinmeyin! Plaklarımız hakkında sorularınız, önerileriniz veya özel talepleriniz için her zaman buradayız. Aşağıdaki iletişim bilgilerini kullanarak bize ulaşabilirsiniz.
+
+        
+        Diamond Records ekibi olarak, size en iyi hizmeti sunmak için sabırsızlanıyoruz!</p>
+
+        <form action="#" method="post">
+            <label for="name">İsim:</label><br>
+            <input type="text" id="fname" name="fname" required><br><br>
+
+            <label for="name">Soyisim:</label><br>
+            <input type="text" id="lname" name="lname" required><br><br>
+    
+            <label for="email">E-posta:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <label for="message">Mesaj:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+    
+            <input type="submit" value="Gönder">
+        </form>
+    
+</body>
+</html>
